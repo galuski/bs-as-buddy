@@ -1,6 +1,6 @@
 import logo from './../../public/images/logo.svg'
 import { LanguageSwitcher } from './LanguageSwitcher'
-import { Weather } from './weather'
+import { Weather } from './Weather'
 export function Header() {
 
     return (
