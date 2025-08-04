@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { ButtonHero } from "./buttonHero";
+import { ButtonHero } from "./ButtonHero";
 
 import amigosIMG from './../../public/images/covers/amigos.jpg'
 import beersIMG from './../../public/images/covers/beers.jpg'
