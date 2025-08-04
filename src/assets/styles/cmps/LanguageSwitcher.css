@@ -1,0 +1,48 @@
+.language-switcher {
+  grid-column: 12;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-family: CaveatBrush;
+}
+
+.language-btn {
+  position: relative; /* ✨ anchor for dropdown */
+  color: var(--clr1);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.flag-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background: transparent;
+  margin-top: 5px;
+  z-index: 100;
+  top: 85px;
+}
+
+.dropdown-option {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.dropdown-option:hover {
+  background-color: #f0f0f0;
+}
+
+/*mobile*/
+@media (max-width: 599px) {
+}

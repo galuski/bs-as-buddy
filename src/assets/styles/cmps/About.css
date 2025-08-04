@@ -1,0 +1,40 @@
+.about {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.text-area {
+  grid-column: 1/9;
+}
+.section-img {
+  display: flex;
+  align-items: center;
+  grid-column: 10/13;
+  width: 100%;
+}
+
+/*mobile*/
+@media (max-width: 599px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .text-area {
+    text-align: center;
+  }
+
+  .section-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}

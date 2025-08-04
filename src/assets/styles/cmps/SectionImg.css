@@ -1,0 +1,32 @@
+.frame {
+  width: 200px;
+  background: white;
+  padding: 1rem 1rem 2rem 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  aspect-ratio: 1 / 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.frame img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  border-radius: 2px;
+}
+
+.frame:hover {
+  transform: rotate(-1deg) scale(1.03);
+}
+
+.caption {
+  margin-top: 1rem;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+}

@@ -1,0 +1,104 @@
+.faq{
+    margin-bottom: 100px;
+
+}
+
+.faq-h1 {
+  text-align: center;
+}
+
+.faq-title p {
+  padding: 0 190px;
+  margin-bottom: 10px;
+}
+
+.faq .card {
+  border: none;
+  background: none;
+  border-bottom: 1px dashed var(--clr1);
+}
+
+.faq .card .card-header {
+  padding: 0px;
+  border: none;
+  background: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+  background: rgba(65, 164, 195, 0.1);
+}
+.faq .card .card-header .faq-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-decoration: none !important;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  padding: 20px 0;
+}
+
+.faq-icon {
+  width: 24px;
+  height: 24px;
+  fill: #e59430; /* הצבע שלך */
+  margin-inline-end: 8px;
+}
+
+.faq .card .card-body {
+  padding: 30px;
+  padding-left: 35px;
+  padding-bottom: 16px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #6f8ba4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  border-top: 1px solid #f3f8ff;
+}
+
+.faq .card .card-body p {
+  margin-bottom: 14px;
+}
+
+.answer-txt{
+    font-size: 1rem;
+}
+
+.faq .card .card-body {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 35px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #6f8ba4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  border-top: 1px solid #f3f8ff;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+/* כשנפתח */
+.faq .card .card-body.open {
+  max-height: 500px; /* מספיק גבוה לתשובות */
+}
+
+@media (max-width: 991px) {
+  .faq {
+    margin-bottom: 30px;
+  }
+  .faq .card .card-header .faq-title {
+    line-height: 26px;
+    margin-top: 10px;
+  }
+}

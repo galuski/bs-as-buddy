@@ -1,0 +1,67 @@
+figure, figcaption {
+  display: block;
+}
+
+.polaroid {
+  width: 100%;
+  padding: 0px 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.polaroid img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.polaroid figure {
+  position: relative;
+  width: auto;
+  max-width: 400px;
+  margin: 20px auto 0px;
+  padding: 6px 8px 10px 8px;
+  display: inline-block;
+  box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+  background-color: #eee6d8;
+  transform: rotate(-1deg);
+  backface-visibility: hidden;
+}
+
+.polaroid figure:nth-child(even) {
+  margin: 20px 18px 20px 25px;
+  transform: rotate(2deg);
+  box-shadow: -4px 4px 8px -4px rgba(0, 0, 0, .75);
+}
+
+.polaroid figure:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 5px;
+  top: -10px;
+  width: 75px;
+  height: 25px;
+  z-index: 1;
+  background-color: rgba(222,220,198,0.7);
+  transform: rotate(-12deg);
+}
+
+.polaroid figure:nth-child(even):before {
+  left: unset;
+  right: 10px;
+  top: -10px;
+  width: 55px;
+  height: 25px;
+  z-index: 1;
+  transform: rotate(12deg);
+}
+
+.polaroid figcaption {
+  text-align: center;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 1.75em;
+  color: #454f40;
+  letter-spacing: 0.09em;
+  margin-top: 10px;
+}

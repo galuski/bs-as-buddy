@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "CaveatBrush";
+  src: url("./../fonts/CaveatBrush.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url("./../fonts/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+

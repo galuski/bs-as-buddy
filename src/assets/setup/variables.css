@@ -1,0 +1,11 @@
+:root{
+/* Colors */
+--clr1: #41A4C3;
+--clr2: #5A5A5A ;
+--clr3: #E59430;
+
+/* Breakpoints */
+--mobile-breakpoint: 460px;
+--narrow-breakpoint: 720px;
+--normal-breakpoint: 960px;
+}

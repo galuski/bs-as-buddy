@@ -1,0 +1,24 @@
+/* SETUP */
+@import url(./setup/variables.css);
+@import url(./setup/typography.css);
+
+/* BASICS */
+@import url(./basics/base.css);
+@import url(./basics/layout.css);
+
+/* COMPONENTS */
+@import url(./styles/cmps/Header.css);
+@import url(./styles/cmps/Hero.css);
+@import url(./styles/cmps/Picture.css);
+@import url(./styles/cmps/LanguageSwitcher.css);
+@import url(./styles/cmps/Weather.css);
+@import url(./styles/cmps/SectionImg.css);
+@import url(./styles/cmps/About.css);
+@import url(./styles/cmps/Explore.css);
+@import url(./styles/cmps/ButtonHero.css);
+@import url(./styles/cmps/CheakMark.css);
+@import url(./styles/cmps/CustomList.css);
+@import url(./styles/cmps/Contact.css);
+@import url(./styles/cmps/BookingList.css);
+@import url(./styles/cmps/Faq.css);
+@import url(./styles/cmps/Comments.css);
