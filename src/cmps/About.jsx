@@ -25,7 +25,7 @@ export function About() {
             <div className="section-img">
                 <SectionImg
                     imgSrc={lindaIMG}
-                    caption="Linda"
+                    caption=""
                 />
             </div>
         </section>
