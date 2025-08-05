@@ -32,10 +32,10 @@ i18n
           "¿Querés vivir Buenos Aires como un porteño más?":
             "Do you want to experience Buenos Aires like a true local?",
 
-          "Te invito a explorar la ciudad conmigo: bares, restaurantes, ferias, eventos culturales, fiestas, música en vivo, sitios de interés, barrios, Museos, y más!":
+          "Te invito a explorar la ciudad conmigo: bares, restaurantes, ferias, eventos culturales, fiestas, música en vivo, sitios de interés, barrios, museos, y más!":
             "Join me to explore the city in a whole new way: hidden bars, unique restaurants, open-air markets, cultural events, music, live shows, nightlife, museums, neighborhoods full of character… and much more!",
 
-          "No soy una guía tradicional: soy tu amiga local en Buenos Aires, y te voy a mostrar esos lugares que no está en niguna guía turística.":
+          "No soy una guía tradicional: soy tu amiga local en Buenos Aires, y te voy a mostrar esos lugares que no están en niguna guía turística.":
             "I’m not a traditional tour guide — I’m your local friend in Buenos Aires, and I’ll take you to places that don’t show up in any guidebook.",
 
           //hero-list
@@ -71,6 +71,9 @@ i18n
             "Thanks to that, I’m deeply connected to the cultural and musical life of Buenos Aires: live music bars, alternative venues, underground events and creative spaces across the city.",
 
           //Booling List
+
+          "Reservá tu experiencia":
+          "Book Your Experience",
 
           "Consultá disponibilidad": "Check availability",
 
@@ -113,8 +116,7 @@ i18n
 
           //Comments
 
-          "Opiniones de viajeros": 
-            "What Travelers Say",
+          "Opiniones de viajeros": "What Travelers Say",
 
           "Sentí que caminaba con una amiga, Nada de tours aburridos.":
             "It felt like walking around with a friend, not a boring tour at all",
@@ -136,11 +138,11 @@ i18n
           "¿Querés vivir Buenos Aires como un porteño más?":
             "¿Querés vivir Buenos Aires como un porteño más?",
 
-          "Te invito a explorar la ciudad conmigo: bares, restaurantes, ferias, eventos culturales, fiestas, música en vivo, sitios de interés, barrios, Museos, y más!":
-            "Te invito a explorar la ciudad conmigo: bares, restaurantes, ferias, eventos culturales, fiestas, música en vivo, sitios de interés, barrios, Museos, y más!",
+          "Te invito a explorar la ciudad conmigo: bares, restaurantes, ferias, eventos culturales, fiestas, música en vivo, sitios de interés, barrios, museos, y más!":
+            "Te invito a explorar la ciudad conmigo: bares, restaurantes, ferias, eventos culturales, fiestas, música en vivo, sitios de interés, barrios, museos, y más!",
 
-          "No soy una guía tradicional: soy tu amiga local en Buenos Aires, y te voy a mostrar esos lugares que no está en niguna guía turística.":
-            "No soy una guía tradicional: soy tu amiga local en Buenos Aires, y te voy a mostrar esos lugares que no está en niguna guía turística.",
+          "No soy una guía tradicional: soy tu amiga local en Buenos Aires, y te voy a mostrar esos lugares que no están en niguna guía turística.":
+            "No soy una guía tradicional: soy tu amiga local en Buenos Aires, y te voy a mostrar esos lugares que no están en niguna guía turística.",
 
           //hero-list
           "Tours personalizados": "Tours personalizados",
@@ -174,6 +176,9 @@ i18n
             "Gracias a eso, conozco de cerca la movida cultural y musical de Buenos Aires: bares con música en vivo, espacios alternativos, ciclos escondidos y escenarios de la ciudad.",
 
           //Booling List
+
+          "Reservá tu experiencia": "Reservá tu experiencia",
+
           "Consultá disponibilidad": "Consultá disponibilidad",
 
           "Encuentros en distintos puntos de la ciudad":
@@ -215,8 +220,7 @@ i18n
 
           //Comments
 
-          "Opiniones de viajeros": 
-            "Opiniones de viajeros",
+          "Opiniones de viajeros": "Opiniones de viajeros",
 
           "Sentí que caminaba con una amiga, Nada de tours aburridos.":
             "Sentí que caminaba con una amiga, Nada de tours aburridos.",

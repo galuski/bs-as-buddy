@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { HeroPicture } from "./HeroPicture";
 import obeliscoIMG from './../../public/images/covers/obelisco.jpg';
+import streetIMG from './../../public/images/covers/street.png';
 import { SectionImg } from "./SectionImg";
 import { Checkmark } from "./CheakMark";
 import { CustomList } from "./CustomList";
@@ -15,8 +16,8 @@ export function Explore() {
         <Title title={t("Descubrí Buenos Aires con una amiga local")} />
 
         <p><b>{t("¿Querés vivir Buenos Aires como un porteño más?")}</b></p>
-        <p>{t("Te invito a explorar la ciudad conmigo: bares, restaurantes, ferias, eventos culturales, fiestas, música en vivo, sitios de interés, barrios, Museos, y más!")}</p>
-        <p>{t("No soy una guía tradicional: soy tu amiga local en Buenos Aires, y te voy a mostrar esos lugares que no está en niguna guía turística.")}</p>
+        <p>{t("Te invito a explorar la ciudad conmigo: bares, restaurantes, ferias, eventos culturales, fiestas, música en vivo, sitios de interés, barrios, museos, y más!")}</p>
+        <p>{t("No soy una guía tradicional: soy tu amiga local en Buenos Aires, y te voy a mostrar esos lugares que no están en niguna guía turística.")}</p>
 
         <CustomList />
 
@@ -24,8 +25,8 @@ export function Explore() {
 
       <div className="explore-img">
         <HeroPicture
-          imgSrc={obeliscoIMG}
-          caption="Obelisco"
+          imgSrc={streetIMG}
+          caption="Palermo, CABA"
         />
       </div>
     </section>

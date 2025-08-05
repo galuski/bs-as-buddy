@@ -1,8 +1,9 @@
 import { useTranslation } from "react-i18next";
 import { ButtonHero } from "./ButtonHero";
 
-import amigosIMG from './../../public/images/covers/amigos.jpg'
+// import amigosIMG from './../../public/images/covers/amigos.jpg'
 import beersIMG from './../../public/images/covers/beers.jpg'
+import viewIMG from './../../public/images/covers/view.jpeg'
 
 export function Hero() {
     const { t } = useTranslation();
@@ -10,7 +11,7 @@ export function Hero() {
     return (
         <section className="hero">
             <div className="image-container">
-                <img className="amigos-img" src={amigosIMG} alt="amigos" />
+                <img className="amigos-img" src={viewIMG} alt="amigos" />
                 <img className="beers-img" src={beersIMG} alt="beers" />
                 <div className="overlay-text-container">
                     <h1>Buenos Aires Buddy</h1>
