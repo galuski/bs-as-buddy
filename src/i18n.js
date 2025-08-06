@@ -126,7 +126,11 @@ i18n
 
           "Perfecto para quienes buscan la Buenos Aires real, no solo lo turístico.":
             "Perfect for anyone looking to see the real Buenos Aires, not the touristy version.",
+
+          "Contacto":
+          "Contact",
         },
+
       },
       es: {
         translation: {
@@ -230,6 +234,9 @@ i18n
 
           "Perfecto para quienes buscan la Buenos Aires real, no solo lo turístico.":
             "Perfecto para quienes buscan la Buenos Aires real, no solo lo turístico.",
+
+          "Contacto":
+          "Contacto",  
         },
       },
     },

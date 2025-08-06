@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+
 import MailSVG from './../assets/icons/mail.svg?react';
 import WhatsappSVG from './../assets/icons/whatsapp.svg?react';
 import InstagramSVG from './../assets/icons/instagram.svg?react';
@@ -8,10 +10,11 @@ import StampVG from './../assets/icons/stamp.svg?react';
 import { Title } from "./Title";
 
 export function Contact() {
+          const { t } = useTranslation();
 
     return (
         <section className="contact">
-            <Title title={"Contact"} />
+            <Title title={t("Contacto")} />
             <div className="contact-container">
                 <div className="contact-list">
                     <a href="https://www.instagram.com/buenosairesbuddy?igsh=MWQwdnJ3bjJmdXVraA=="><InstagramSVG className="contact-icon" /> Buenos Aires Buddy - Argentina</a>
