@@ -6,6 +6,7 @@
   justify-content: center;
   gap: 2rem;
   list-style: none;
+  margin-bottom: 50px;
 }
 
 .book-list li {

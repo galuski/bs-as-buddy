@@ -33,7 +33,7 @@
   text-indent: 35px;
   transition: 300ms;
   font-weight: 500;
-  color: #fff;
+  color: var(--clr3);
 }
 
 /* Left circle animation background */
@@ -67,7 +67,7 @@
 /* Hover state */
 .hero-btn:hover {
   text-indent: 1rem;
-  color: var(--clr);
+  color: var(--clr4);
   font-weight: 600;
 }
 

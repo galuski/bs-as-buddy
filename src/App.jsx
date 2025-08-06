@@ -6,6 +6,7 @@ import { Explore } from './cmps/Explore';
 import Faq from './cmps/Faq';
 import { Header } from './cmps/Header';
 import { Hero } from './cmps/Hero';
+import { Reservation } from './cmps/Reservation';
 // import Video from './cmps/Video';
 
 function App() {
@@ -17,9 +18,10 @@ function App() {
       <Hero />
       <Explore />
       <About />
-      <Contact />
+      <Reservation />
       <Faq />
-      <Comments/>
+      <Comments />
+      <Contact />
     </main>
   )
 }

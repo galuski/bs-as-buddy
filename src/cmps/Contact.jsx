@@ -1,18 +1,27 @@
-import { useTranslation } from "react-i18next";
-import { BookingList } from "./BookingList";
+import MailSVG from './../assets/icons/mail.svg?react';
+import WhatsappSVG from './../assets/icons/whatsapp.svg?react';
+import InstagramSVG from './../assets/icons/instagram.svg?react';
+import FacebookSVG from './../assets/icons/facebook.svg?react';
+import StampVG from './../assets/icons/stamp.svg?react';
+
+
 import { Title } from "./Title";
 
 export function Contact() {
-    const { t } = useTranslation();
 
     return (
-
         <section className="contact">
-            <Title title={t("Reservá tu experiencia")} />
-            <p>{t("¿Querés planear tu visita? Escribime y armamos un recorrido juntos.")}</p>
-            <p>{t("Podés venir solo/a, en pareja o en grupo pequeño.")}</p>
-            <div>
-                <BookingList />
+            <Title title={"Contact"} />
+            <div className="contact-container">
+                <div className="contact-list">
+                    <a href="mailto:luskigal@email.com"><MailSVG className="contact-icon" />luskigal@gmail.com</a>
+                    <a href="https://wa.me/5491159343218" target="_blank"><WhatsappSVG className="contact-icon" /> +54 9 11 5934-3218</a>
+                    <a href="https://www.instagram.com/buenosairesbuddy?igsh=MWQwdnJ3bjJmdXVraA=="><InstagramSVG className="contact-icon" /> Buenos Aires Buddy - Argentina</a>
+                    <a href="https://www.facebook.com/buenosairesbuddy"><FacebookSVG className="contact-icon" /> Buenos Aires Buddy - Argentina</a>
+                </div>
+                <div>
+                    <StampVG className="stamp-icon" />
+                </div>
             </div>
         </section>
     )

@@ -54,6 +54,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .comment{

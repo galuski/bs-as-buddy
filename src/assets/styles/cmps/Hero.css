@@ -17,16 +17,16 @@
 
 .overlay-text-container {
   position: absolute;
-  top: 50%; /* vertical position */
+  top: 20%; /* vertical position */
   left: 50%; /* horizontal position */
   transform: translate(-50%, -50%); /* center the text */
   text-align: center;
-  color: var(--clr2);
+  color: var(--clr4);
   font-size: 1.5rem;
 }
 
 .hero h1 {
-  color: var(--clr2);
+  color: var(--clr4);
   font-size: clamp(3.5rem, 6vw, 4.5rem);
   font-family: CaveatBrush;
   font-weight: 700;
@@ -34,7 +34,7 @@
   letter-spacing: 0.5px;
 }
 .hero p {
-  color: var(--clr2);
+  color: var(--clr4);
   font-size: clamp(1rem, 3.5vw, 2rem);
   font-family: CaveatBrush;
   font-weight: 400;
@@ -42,23 +42,16 @@
   letter-spacing: 0.5px;
 }
 
-.image-container .beers-img {
+/* .image-container .beers-img {
   display: none;
 }
 
 .image-container .amigos-img {
   display: block;
 
-}
+} */
 
 @media (max-width: 599px) {
-  .image-container .amigos-img {
-    display: none;
-  }
-
-  .image-container .beers-img {
-    display: block;
-  }
 
   .overlay-text-container {
   position: absolute;
@@ -66,11 +59,10 @@
   left: 50%; /* horizontal position */
   transform: translate(-50%, -50%); /* center the text */
   text-align: center;
-  color: black;
 }
 
 .hero h1 {
-  color: rgb(255, 255, 255);
+  color: var(--clr4);
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-family: CaveatBrush;
   font-weight: 700;
@@ -78,7 +70,7 @@
   letter-spacing: 0.5px;
 }
 .hero p {
-  color: rgb(255, 255, 255);
+  color: var(--clr4);
   font-size: clamp(1rem, 3.5vw, 2rem);
   font-family: CaveatBrush;
   font-weight: 400;
