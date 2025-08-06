@@ -14,7 +14,7 @@ export function Contact() {
             <Title title={"Contact"} />
             <div className="contact-container">
                 <div className="contact-list">
-                    <a href="mailto:luskigal@email.com"><MailSVG className="contact-icon" />luskigal@gmail.com</a>
+                    <a href="mailto:buenosairesbuddy@gmail.com"><MailSVG className="contact-icon" />buenosairesbuddy@gmail.com</a>
                     <a href="https://wa.me/5491159343218" target="_blank"><WhatsappSVG className="contact-icon" /> +54 9 11 5934-3218</a>
                     <a href="https://www.instagram.com/buenosairesbuddy?igsh=MWQwdnJ3bjJmdXVraA=="><InstagramSVG className="contact-icon" /> Buenos Aires Buddy - Argentina</a>
                     <a href="https://www.facebook.com/buenosairesbuddy"><FacebookSVG className="contact-icon" /> Buenos Aires Buddy - Argentina</a>
