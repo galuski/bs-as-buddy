@@ -60,8 +60,8 @@ figure, figcaption {
 .polaroid figcaption {
   text-align: center;
   font-family: cursive;
-  font-size: 1.75em;
-  color: #454f40;
+  font-size: 1.3rem;
+  color: #eee6d8;
   letter-spacing: 0.09em;
   margin-top: 10px;
 }

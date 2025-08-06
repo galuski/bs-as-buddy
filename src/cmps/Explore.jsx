@@ -26,7 +26,7 @@ export function Explore() {
       <div className="explore-img">
         <HeroPicture
           imgSrc={streetIMG}
-          caption="    "
+          caption="Buenos Aires"
         />
       </div>
     </section>
