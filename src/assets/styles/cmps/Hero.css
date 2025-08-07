@@ -51,6 +51,20 @@
 
 } */
 
+
+@media (max-width: 916px) {
+
+  .overlay-text-container {
+  position: absolute;
+  top: 40%; /* vertical position */
+  left: 50%; /* horizontal position */
+  transform: translate(-50%, -50%); /* center the text */
+  text-align: center;
+  color: var(--clr4);
+  font-size: 1.5rem;
+}
+
+}
 @media (max-width: 599px) {
 
   .overlay-text-container {

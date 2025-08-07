@@ -1,0 +1,136 @@
+.navbar {
+  grid-column: 5/10;
+  width: 100%;
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  color: var(--clr1);
+  font-size: 1rem;
+  z-index: 50;
+}
+
+.navbar ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar ul li a {
+  font-family: CaveatBrush;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--clr2);
+}
+
+.navbar ul li a:hover {
+  color: var(--clr3);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  color: var(--clr1);
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-option {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.dropdown-option:hover {
+  background-color: var(--clr2);
+}
+
+/* סגנון כפתור המבורגר - יופיע רק במסכים קטנים */
+.navbar .menu {
+  display: none; /* מוסתר כברירת מחדל */
+}
+
+/* תפריט ניווט במסכים גדולים */
+@media (min-width: 961px) {
+  .navbar ul {
+    display: flex !important; /* תפריט מוצג תמיד במסכים גדולים */
+  }
+}
+
+/* תפריט ניווט במסכים קטנים */
+@media (max-width: 960px) {
+  .navbar .menu {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+  }
+
+  .bars {
+    width: 30px;
+    height: 4px;
+    background-color: var(--clr2);
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .menu.open #bar1 {
+    transform: rotate(45deg);
+    transform-origin: center;
+    width: 30px;
+    position: absolute;
+  }
+
+  .menu.open #bar2 {
+    opacity: 0;
+  }
+
+  .menu.open #bar3 {
+    transform: rotate(-45deg);
+    transform-origin: center;
+    width: 30px;
+    position: absolute;
+  }
+
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navbar ul.open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    gap: 10px;
+    background-color: var(--clr1);
+    z-index: 50;
+      transition: all 0.3s ease-in-out;
+  }
+
+  .navbar ul.open li a {
+    color: var(--clr4); /* או כל צבע שתרצי */
+  }
+
+  .navbar ul.open li a:hover {
+    color: var(--clr3); /* צבע במעבר עכבר */
+  }
+}

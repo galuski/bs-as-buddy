@@ -8,6 +8,8 @@
 
 /* COMPONENTS */
 @import url(./styles/cmps/Header.css);
+@import url(./styles/cmps/Navbar.css);
+@import url(./styles/cmps/Burger.css);
 @import url(./styles/cmps/Hero.css);
 @import url(./styles/cmps/Picture.css);
 @import url(./styles/cmps/LanguageSwitcher.css);

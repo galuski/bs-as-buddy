@@ -7,8 +7,8 @@
 }
 
 .language-btn {
-  position: relative; /* ✨ anchor for dropdown */
-  color: var(--clr1);
+  position: relative;
+  color: var(--clr2);
   background: none;
   border: none;
   cursor: pointer;

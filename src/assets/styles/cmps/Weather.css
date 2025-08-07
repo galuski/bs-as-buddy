@@ -3,18 +3,18 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  grid-column: 11;
+  color: var(--clr2);
   gap: 3px;
 }
 
 .temperature {
   font-size: 1rem;
   font-weight: bold;
-  color: var(--clr1);
+  color: var(--clr2);
 }
 
 .weather-icon {
-  color: var(--clr1);
+  color: var(--clr2);
   width: 20px;
   height: 20px;
   display: block; /* כדי למנוע רווחים מיותרים */
@@ -28,7 +28,6 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  grid-column: 10;
   gap: 3px;
 }
 

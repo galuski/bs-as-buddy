@@ -1,0 +1,44 @@
+@media (max-width: 960px) {
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 40px;
+    height: 40px;
+    position: relative; /* חשוב! */
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .bar {
+    width: 30px;
+    height: 4px;
+    background-color: var(--clr2);
+    border-radius: 4px;
+    transition: all 0.4s ease;
+    position: relative; /* מצב רגיל */
+  }
+
+  .menu.open #bar1 {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform-origin: center;
+  }
+
+  .menu.open #bar2 {
+    opacity: 0;
+  }
+
+  .menu.open #bar3 {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform-origin: center;
+  }
+}

@@ -23,6 +23,15 @@ i18n
     resources: {
       en: {
         translation: {
+          //Navbar
+          Inicio: "Home",
+
+          "Acerca de mí": "About me",
+
+          FAQ: "FAQ",
+
+          "Clases de Español": "Spanish Clases",
+
           //hero
           "Vamos a hablar": "Let's Talk",
 
@@ -72,8 +81,7 @@ i18n
 
           //Booling List
 
-          "Reservá tu experiencia":
-          "Book Your Experience",
+          "Reservá tu experiencia": "Book Your Experience",
 
           "Consultá disponibilidad": "Check availability",
 
@@ -127,13 +135,21 @@ i18n
           "Perfecto para quienes buscan la Buenos Aires real, no solo lo turístico.":
             "Perfect for anyone looking to see the real Buenos Aires, not the touristy version.",
 
-          "Contacto":
-          "Contact",
+          Contacto: "Contact",
         },
-
       },
       es: {
         translation: {
+          //Navbar
+          "Inicio": "Inicio",
+
+          "Acerca de mí": "Acerca de mí",
+
+          "FAQ": "FAQ",
+
+          "Clases de Español": "Clases de Español",
+
+          
           "Vamos a hablar": "Vamos a hablar",
           //hero
           "Descubrí Buenos Aires con una amiga local":
@@ -235,8 +251,7 @@ i18n
           "Perfecto para quienes buscan la Buenos Aires real, no solo lo turístico.":
             "Perfecto para quienes buscan la Buenos Aires real, no solo lo turístico.",
 
-          "Contacto":
-          "Contacto",  
+          Contacto: "Contacto",
         },
       },
     },
