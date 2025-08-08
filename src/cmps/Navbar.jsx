@@ -15,7 +15,7 @@ export function Navbar({ setMenuOpen, menuOpen }) {
         <li><Link to="about" spy={true} smooth={true} duration={500} onClick={handleLinkClick}>{t("Acerca de mí")}</Link ></li>
         <li><Link to="faq" spy={true} smooth={true} duration={500} onClick={handleLinkClick}>{t("FAQ")}</Link ></li>
         <li><Link to="contact" spy={true} smooth={true} duration={500} onClick={handleLinkClick}>{t("Contacto")}</Link ></li>
-        <li><a href="">{t("Clases de Español")}</a></li>
+        <li><a className='spanish-link' href="">{t("Clases de Español")}</a></li>
       </ul>
     </nav>
   );

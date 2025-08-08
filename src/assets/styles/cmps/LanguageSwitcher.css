@@ -48,4 +48,11 @@
 
 /*mobile*/
 @media (max-width: 599px) {
+  .dropdown-menu {
+  position: absolute;
+  background: transparent;
+  border: none;
+  z-index: 100;
+  top: 80px;
+}
 }
