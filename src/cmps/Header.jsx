@@ -13,7 +13,7 @@ export function Header() {
     return (
         <header>
             <Burger menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-            <Navbar menuOpen={menuOpen} />
+            <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <img src={logo} alt="logo" />
             <div className='header-selects'>
                 <Weather />

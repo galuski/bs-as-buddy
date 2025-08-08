@@ -1,4 +1,5 @@
-import './App.css'
+import { Element } from 'react-scroll';
+
 import { About } from './cmps/About';
 import { Comments } from './cmps/Comments';
 import { Contact } from './cmps/Contact';
@@ -17,11 +18,17 @@ function App() {
       <Header />
       <Hero />
       <Explore />
-      <About />
+      <Element name="about">
+        <About />
+      </Element>
       <Reservation />
-      <Faq />
+      <Element name="faq">
+        <Faq />
+      </Element>
       <Comments />
-      <Contact />
+      <Element name="contact">
+        <Contact />
+      </Element>
     </main>
   )
 }

@@ -20,11 +20,13 @@
   list-style: none;
 }
 
-.navbar ul li a {
+.navbar ul li {
   font-family: CaveatBrush;
   font-size: 1.2rem;
   text-decoration: none;
   color: var(--clr2);
+  white-space: nowrap;
+  cursor: pointer;
 }
 
 .navbar ul li a:hover {
@@ -34,26 +36,6 @@
 .dropdown {
   position: relative;
   display: inline-block;
-}
-
-.dropdown-menu {
-  position: absolute;
-  color: var(--clr1);
-  border: 1px solid #ccc;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-option {
-  display: flex;
-  align-items: center;
-  font-size: 1rem;
-  padding: 2px;
-  cursor: pointer;
-}
-
-.dropdown-option:hover {
-  background-color: var(--clr2);
 }
 
 /* סגנון כפתור המבורגר - יופיע רק במסכים קטנים */
@@ -78,31 +60,6 @@
     cursor: pointer;
   }
 
-  .bars {
-    width: 30px;
-    height: 4px;
-    background-color: var(--clr2);
-    border-radius: 4px;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .menu.open #bar1 {
-    transform: rotate(45deg);
-    transform-origin: center;
-    width: 30px;
-    position: absolute;
-  }
-
-  .menu.open #bar2 {
-    opacity: 0;
-  }
-
-  .menu.open #bar3 {
-    transform: rotate(-45deg);
-    transform-origin: center;
-    width: 30px;
-    position: absolute;
-  }
 
   .navbar ul {
     display: none;
@@ -123,7 +80,7 @@
     gap: 10px;
     background-color: var(--clr1);
     z-index: 50;
-      transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 
   .navbar ul.open li a {

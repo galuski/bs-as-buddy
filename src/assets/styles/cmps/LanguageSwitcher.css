@@ -27,9 +27,9 @@
 .dropdown-menu {
   position: absolute;
   background: transparent;
-  margin-top: 5px;
+  border: none;
   z-index: 100;
-  top: 85px;
+  top: 65px;
 }
 
 .dropdown-option {
@@ -37,6 +37,9 @@
   display: flex;
   align-items: center;
   gap: 3px;
+  background: transparent;
+  border: none;
+  color: var(--clr2);
 }
 
 .dropdown-option:hover {
