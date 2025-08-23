@@ -1,0 +1,50 @@
+.offer-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.offer-list li {
+  width: 110px;
+  justify-self: center;
+  display: grid;
+  grid-template:
+    "icon"
+    "title";
+  justify-items: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.offer-list li .icon {
+  grid-area: icon;
+  width: 40px;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  fill: var(--clr3);
+  background-color: transparent;
+  font-size: 2.5rem;
+  /* border: 3px solid var(--clr3); */
+  border-radius: 50%;
+}
+
+.offer-list li .title {
+  grid-area: title;
+  margin-block: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  height: 30px;
+  text-align: center;
+  font-family: CaveatBrush;
+}
+
+.offer-list li .descr {
+  grid-area: descr;
+}

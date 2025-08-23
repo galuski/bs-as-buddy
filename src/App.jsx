@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Element } from 'react-scroll';
 
 import { About } from './cmps/About';
@@ -8,14 +9,11 @@ import Faq from './cmps/Faq';
 import { Header } from './cmps/Header';
 import { Hero } from './cmps/Hero';
 import { Reservation } from './cmps/Reservation';
-// import Video from './cmps/Video';
+import { SpanishClasses } from './cmps/SpanishClasses'; // עמוד חדש
 
-function App() {
-
+function HomePage() {
   return (
-    <main className='app main-layout'>
-      {/* <Video /> */}
-      <Header />
+    <>
       <Hero />
       <Explore />
       <Element name="about">
@@ -29,7 +27,22 @@ function App() {
       <Element name="contact">
         <Contact />
       </Element>
-    </main>
-  )
+    </>
+  );
 }
+
+function App() {
+  return (
+    <Router>
+      <main className="app main-layout">
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/spanish-classes" element={<SpanishClasses />} />
+        </Routes>
+      </main>
+    </Router>
+  );
+}
+
 export default App;

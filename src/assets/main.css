@@ -25,3 +25,10 @@
 @import url(./styles/cmps/Faq.css);
 @import url(./styles/cmps/Comments.css);
 @import url(./styles/cmps/Contact.css);
+@import url(./styles/cmps/ExploreSpanish.css);
+@import url(./styles/cmps/Offer.css);
+@import url(./styles/cmps/OfferList.css);
+
+/*Views*/
+
+@import url(./views/SpanishClasses.css);
