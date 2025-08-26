@@ -1,30 +1,24 @@
 .offer-list {
-  width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: start;
   gap: 2rem;
   list-style: none;
   margin-bottom: 50px;
 }
 
 .offer-list li {
-  width: 110px;
-  justify-self: center;
-  display: grid;
-  grid-template:
-    "icon"
-    "title";
-  justify-items: center;
-  align-items: flex-start;
-  text-align: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 40px;
+  gap: 1rem;
 }
 
 .offer-list li .icon {
   grid-area: icon;
-  width: 40px;
+  width: 24px;
   aspect-ratio: 1;
   display: grid;
   place-items: center;
@@ -36,15 +30,65 @@
 }
 
 .offer-list li .title {
-  grid-area: title;
-  margin-block: 0.5rem;
-  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
   font-weight: 600;
-  height: 30px;
-  text-align: center;
+  height: 40px;
+  text-align: start;
+  color: var(--clr2);
   font-family: CaveatBrush;
 }
 
 .offer-list li .descr {
   grid-area: descr;
+}
+
+@media (max-width: 450px) {
+  .offer-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    list-style: none;
+    margin-bottom: 50px;
+  }
+
+  .offer-list li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 24px;
+    gap: 1rem;
+  }
+
+  .offer-list li .icon {
+    grid-area: icon;
+    width: 24px;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    fill: var(--clr3);
+    background-color: transparent;
+    border-radius: 50%;
+  }
+
+  .offer-list li .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 24px;
+    text-align: start;
+    color: var(--clr2);
+    font-family: CaveatBrush;
+  }
+
+  .offer-list li .descr {
+    grid-area: descr;
+  }
 }

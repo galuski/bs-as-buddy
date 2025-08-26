@@ -136,20 +136,48 @@ i18n
             "Perfect for anyone looking to see the real Buenos Aires, not the touristy version.",
 
           Contacto: "Contact",
+
+          //Explore-Spanish
+
+          "Clases de Español Conversacional": "Spanish Conversation Classes",
+          "Aprendé español de forma natural, divertida y a tu ritmo":
+            "Learn Spanish naturally, at your own pace and have fun doing it",
+          "¿Querés mejorar tu español sin estrés y con conversaciones reales? Te ofrezco clases personalizadas de español conversacional, para todos los niveles — desde principiante hasta avanzado.":
+            "Want to improve your Spanish without stress and through real conversations? I offer personalized conversation-based Spanish lessons for all levels from complete beginner to advanced.",
+          "Las clases pueden ser presenciales en Buenos Aires, capital federal, u online desde cualquier parte del mundo.":
+            "Classes can be in-person in Buenos Aires (Capital Federal) or online from anywhere in the world.",
+          "Mi enfoque es relajado y práctico: charlas reales, vocabulario útil, expresiones cotidianas, pronunciación y comprensión. Aprendemos hablando, escuchando y disfrutando.":
+            "My approach is relaxed and practical: real-life conversations, useful vocabulary, everyday expressions, pronunciation and listening. We learn by speaking, listening and enjoying the process.",
+
+                      //Offer
+          "¿Qué te ofrezco?": "What I offer:",
+          "Clases 100% personalizadas": "100% personalized lessons",
+          "donde te quede cómodo": "wherever you are comfortable",
+          "Ritmo flexible, según tu disponibilidad": "Flexible schedule based on your availability",
+          "Enfoque en conversación, cultura y fluidez": "Focus on conversation, culture and fluency",
+          "Ejercicios según las necesidades de cada alumno": "Exercises tailored to each student’s needs",
+
+                    //Ideal
+
+          "Ideal si...": "Perfect for you if...",
+          "Querés viajar o vivir en países hispanohablantes": "You're planning to travel or move to a Spanish-speaking country",
+          "Estás en Buenos Aires y querés practicar con alguien local": "You're living in Buenos Aires and want to practice with a local",
+          "Buscás ganar confianza al hablar": "You want to gain confidence speaking",
+          "Ya sabés un poco pero querés soltarte": "You already know a bit and want to get more fluent",
+          "Si estás empezando desde cero (¡también es para vos!)": "If you’re starting from zero (yes, this is for you too!)",
         },
       },
       es: {
         translation: {
           //Navbar
-          "Inicio": "Inicio",
+          Inicio: "Inicio",
 
           "Acerca de mí": "Acerca de mí",
 
-          "FAQ": "FAQ",
+          FAQ: "FAQ",
 
           "Clases de Español": "Clases de Español",
 
-          
           "Vamos a hablar": "Vamos a hablar",
           //hero
           "Descubrí Buenos Aires con una amiga local":
@@ -252,6 +280,31 @@ i18n
             "Perfecto para quienes buscan la Buenos Aires real, no solo lo turístico.",
 
           Contacto: "Contacto",
+
+          //Explore-Spanish
+
+          "Clases de Español Conversacional": "Clases de Español Conversacional",
+          "Aprendé español de forma natural, divertida y a tu ritmo": "Aprendé español de forma natural, divertida y a tu ritmo",
+          "¿Querés mejorar tu español sin estrés y con conversaciones reales? Te ofrezco clases personalizadas de español conversacional, para todos los niveles — desde principiante hasta avanzado.": "¿Querés mejorar tu español sin estrés y con conversaciones reales? Te ofrezco clases personalizadas de español conversacional, para todos los niveles — desde principiante hasta avanzado.",
+          "Las clases pueden ser presenciales en Buenos Aires, capital federal, u online desde cualquier parte del mundo.": "Las clases pueden ser presenciales en Buenos Aires, capital federal, u online desde cualquier parte del mundo.",
+          "Mi enfoque es relajado y práctico: charlas reales, vocabulario útil, expresiones cotidianas, pronunciación y comprensión. Aprendemos hablando, escuchando y disfrutando.": "Mi enfoque es relajado y práctico: charlas reales, vocabulario útil, expresiones cotidianas, pronunciación y comprensión. Aprendemos hablando, escuchando y disfrutando.",
+
+          //Offer
+          "¿Qué te ofrezco?": "¿Qué te ofrezco?",
+          "Clases 100% personalizadas": "Clases 100% personalizadas",
+          "donde te quede cómodo": "donde te quede cómodo",
+          "Ritmo flexible, según tu disponibilidad": "Ritmo flexible, según tu disponibilidad",
+          "Enfoque en conversación, cultura y fluidez": "Enfoque en conversación, cultura y fluidez",
+          "Ejercicios según las necesidades de cada alumno": "Ejercicios según las necesidades de cada alumno",
+
+          //Ideal
+
+          "Ideal si...":"Ideal si...",
+          "Querés viajar o vivir en países hispanohablantes": "Querés viajar o vivir en países hispanohablantes",
+          "Estás en Buenos Aires y querés practicar con alguien local": "Estás en Buenos Aires y querés practicar con alguien local",
+          "Buscás ganar confianza al hablar": "Buscás ganar confianza al hablar",
+          "Ya sabés un poco pero querés soltarte": "Ya sabés un poco pero querés soltarte",
+          "Si estás empezando desde cero (¡también es para vos!)": "Si estás empezando desde cero (¡también es para vos!)",
         },
       },
     },

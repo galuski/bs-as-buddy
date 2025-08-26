@@ -1,12 +1,14 @@
 import { ExploreSpanish } from "./ExploreSpanish";
-import { Offer } from "./Offer";
+import { Contact } from './Contact';
+import { SpanishList } from "./SpanishList";
 
 export function SpanishClasses() {
 
   return (
     <main className="spanish-classes">
       <ExploreSpanish />
-      <Offer />
+      <SpanishList/>
+      <Contact/>
     </main>
   );
 }

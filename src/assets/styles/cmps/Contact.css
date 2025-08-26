@@ -34,6 +34,39 @@
   }
 
   .contact-list {
-    gap: 20px;
+    gap: 30px;
   }
+}
+
+@media (max-width: 450px) {
+  .contact {
+    width: 100%;
+    text-align: center;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-list {
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+  }
+
+  .contact-icon {
+  fill: var(--clr1);
+  width: 24px;
+}
+
+.contact-list a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* רווח בין האייקון לטקסט */
+  text-decoration: none; /* אם את לא רוצה קו מתחת */
+  color: var(--clr2); /* שומר על צבע הטקסט */
+}
 }

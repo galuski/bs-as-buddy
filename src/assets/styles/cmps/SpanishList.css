@@ -1,0 +1,22 @@
+.spanish-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+.spanish-list-offer{
+    grid-column: 1/7;
+}
+
+.spanish-list-ideal{
+    grid-column: 7/13;
+}
+
+@media (max-width: 450px) {
+
+    .spanish-list{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}

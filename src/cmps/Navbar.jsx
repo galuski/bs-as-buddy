@@ -13,7 +13,7 @@ export function Navbar({ setMenuOpen, menuOpen }) {
     <nav className="navbar">
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <RouterLink to="/" onClick={handleLinkClick}>
+          <RouterLink to="/" onClick={handleLinkClick} className='link-home'>
             {t("Inicio")}
           </RouterLink>
         </li>
