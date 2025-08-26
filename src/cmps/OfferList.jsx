@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import UserSVG from './../assets/icons/user.svg?react';
 import LocationSVG from './../assets/icons/location.svg?react';
 import ClockSVG from './../assets/icons/clock.svg?react';
-import CommentsSVG from './../assets/icons/Comments.svg?react';
+import CommentsSVG from './../assets/icons/comments.svg?react';
 import BookSVG from './../assets/icons/book-open.svg?react';
 
 
