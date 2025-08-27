@@ -22,7 +22,7 @@
   aspect-ratio: 1;
   display: grid;
   place-items: center;
-  fill: var(--clr3);
+  fill: var(--clr1);
   background-color: transparent;
   font-size: 2.5rem;
   /* border: 3px solid var(--clr3); */
@@ -45,7 +45,7 @@
   grid-area: descr;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1050px) {
   .offer-list {
     width: 100%;
     display: flex;
@@ -71,7 +71,7 @@
     aspect-ratio: 1;
     display: grid;
     place-items: center;
-    fill: var(--clr3);
+    fill: var(--clr1);
     background-color: transparent;
     border-radius: 50%;
   }

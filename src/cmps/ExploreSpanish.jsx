@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import speechPNG from "./../../public/images/covers/speech.png"
 import { Title } from "./Title";
+import { ButtonHero } from "./ButtonHero";
 
 export function ExploreSpanish() {
     const { t } = useTranslation();
@@ -18,6 +18,7 @@ export function ExploreSpanish() {
                     <p>{t("Mi enfoque es relajado y práctico: charlas reales, vocabulario útil, expresiones cotidianas, pronunciación y comprensión. Aprendemos hablando, escuchando y disfrutando.")}</p>
                 </div>
             </div>
+                    <ButtonHero />
         </section>
     )
 }
