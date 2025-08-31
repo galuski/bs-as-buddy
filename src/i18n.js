@@ -30,7 +30,7 @@ i18n
 
           FAQ: "FAQ",
 
-          "Clases de Español": "Spanish Clases",
+          "Clases de Español": "Spanish Lessons",
 
           //hero
           "Vamos a hablar": "Let's Talk",
@@ -139,7 +139,7 @@ i18n
 
           //Explore-Spanish
 
-          "Clases de Español Conversacional": "Spanish Conversation Classes",
+          "Clases de Español Conversacional": "Spanish Conversation Lessons",
           "Aprendé español de forma natural, divertida y a tu ritmo":
             "Learn Spanish naturally, at your own pace and have fun doing it",
           "¿Querés mejorar tu español sin estrés y con conversaciones reales? Te ofrezco clases personalizadas de español conversacional, para todos los niveles — desde principiante hasta avanzado.":
@@ -176,7 +176,7 @@ i18n
 
           FAQ: "FAQ",
 
-          "Clases de Español": "Clases de Español",
+          "Clases de Español": "Lessons de Español",
 
           "Vamos a hablar": "Vamos a hablar",
           //hero
